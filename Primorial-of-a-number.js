@@ -56,3 +56,18 @@ function numPrimorial(n) {
 }
 
 // or
+
+function numPrimorial(n){
+  let result = 1;
+  
+  nextPrime:
+  for (let i = 2,count = 0; count < n; i++) {
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) continue nextPrime;
+    }
+    count++;
+    result = result * i;
+  }
+  
+  return result
+}
