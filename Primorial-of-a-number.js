@@ -30,3 +30,6 @@ Examples:
     Then the primorial should obtained by multiplying  2 * 3 * 5 * 7 * 11 * 13 = 30030.
     Mathematically written as, P6# = 30030.
 */
+
+
+// Solution
